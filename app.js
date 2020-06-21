@@ -126,8 +126,18 @@
 
 //Task # 15
 
-// var pass=prompt("Enter Your Password"); //remainning
-// if (pass===) {}
+// var pass=prompt("Enter Your Password");
+// var p1=pass.charAt(0);
+// var p2=pass.charAt(0);
+// if(p1==Number(p1)){
+// 	alert("Password cannot begin with numbers \n Please enter valid Password");
+// }
+// else if(pass.length<=6){
+// 	alert("Hello Welcome to the page");
+// }
+// else{
+// 	alert("Length must be less than or equal to 6");
+// }
 
 //Task # 16
 
@@ -334,10 +344,33 @@
 // alert("" +currentdate+ "\n100 years back, it was "+resetyears);
 // console.log();
 
-//Task # 13 //remainning
+//Task # 13
 
-//Task # 14 //remainning
+// var age=prompt("Enter your age : ");
+// age = parseInt(age);
+// var birthday = new Date();
+// document.write("Your age is " +age+ "<br>");
+// document.write("Your birth year is " +(birthday.getFullYear()-age)+ "<br>");
 
+//Task # 14
+
+// var months=["January","Feburary","March","April","May","June","July","August","September","Octuber","November","December"];
+// var current=new Date();
+// var current_month=current.getMonth();
+// var charge_per_unit=16;
+// var late_payment=350;
+// var customer_name=prompt("Enter your name ");
+// var no_of_units=prompt("Enter no of units : ");
+// var NA=no_of_units*charge_per_unit; //Net amount (within due date)
+// var GA=NA*late_payment; //Gross amount (after due date)
+// document.write("<h2>K-Electric Bill</h2><br><br>");
+// document.write("Customer Name : "+customer_name+"<br>");
+// document.write("Month : "+months[current_month]+"<br>");
+// document.write("Number of units : "+no_of_units+"<br>");
+// document.write("Charge per unit : "+charge_per_unit+"<br>");
+// document.write("Net amount payable (within due date) : "+NA+"<br>");
+// document.write("Late payment fee : "+late_payment+"<br>");
+// document.write("Gross amount payable (after due date) : "+GA+"<br>");
 
                 /*-----------------------------------Chapter # 35 to 38-----------------------------------*/
 
